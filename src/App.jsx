@@ -1,8 +1,12 @@
+import { VideoCardGrid } from './components/VideoCardGrid';
+import { Appbar } from './components/Appbar';
+
 function App() {
   return (
     <>
-      <div className='bg-slate-50'>
-        <h1>Youtube Clone</h1>
+      <div className='text-white'>
+        <Appbar />
+        <VideoCardGrid />
       </div>
     </>
   );
